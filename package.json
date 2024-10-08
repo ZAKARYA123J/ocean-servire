@@ -2,8 +2,7 @@
   "type": "module",
   "scripts": {
     "start": "vercel dev",
-    "deploy": "vercel",
-     "build": "prisma generate build --output public"
+    "deploy": "vercel"
   },
   "dependencies": {
     "@prisma/client": "^5.20.0",
