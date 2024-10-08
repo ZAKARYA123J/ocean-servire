@@ -9,6 +9,7 @@
     "hono": "^4.4.2"
   },
   "devDependencies": {
+    "prisma": "^5.20.0",
     "vercel": "^32.4.1"
   }
 }
