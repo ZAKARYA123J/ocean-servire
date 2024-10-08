@@ -1,10 +1,11 @@
 {
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "start": "vercel dev",
     "deploy": "vercel"
   },
   "dependencies": {
+    "@prisma/client": "^5.20.0",
     "hono": "^4.4.2"
   },
   "devDependencies": {

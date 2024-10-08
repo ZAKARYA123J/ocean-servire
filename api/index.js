@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
-
+import routes from './router/router.js';
 const app = new Hono().basePath('/api')
 
 app.get('/', (c) => {
@@ -8,7 +8,7 @@ app.get('/', (c) => {
 })
 
 const handler = handle(app);
-
+app.route('/', routes);
 export const GET = handler;
 export const POST = handler;
 export const PATCH = handler;
